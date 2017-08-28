@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--
+         "uniquekey": "b9454fa5309a77e97e7738bf63d87599",
+                "title": "“出云”号半小时击沉航母？中国此舰弯道超车 日后悔说过了头话！",
+                "date": "2017-08-25 13:22",
+                "category": "头条",
+                "author_name": "张殿成军情观察",
+                "url": "http://mini.eastday.com/mobile/170825132215609.html",
+                "thumbnail_pic_s": "http://03.imgmini.eastday.com/mobile/20170825/20170825_15162bf03e10c97b7eea3bf7a50f14fa_cover_mwpm_03200403.jpeg",
+                "thumbnail_pic_s02": "http://03.imgmini.eastday.com/mobile/20170825/20170825_fd22fe1f9015aefab481f63b0d3757f9_cover_mwpm_03200403.jpeg",
+                "thumbnail_pic_s03": "http://03.imgmini.eastday.com/mobile/20170825/20170825_a89c1d529b00f2919ee36fcb1d7c1a74_cover_mwpm_03200403.jpeg"
+
+    -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_tt_biaoti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="标题"
+            android:textSize="30dp"
+            android:gravity="center|fill"
+            android:textColor="@color/heise"
+            />
+        <TextView
+            android:id="@+id/tv_tt_shijian"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/huise"
+            android:textSize="18dp"
+            android:text="2017-83-23 45:56"
+            android:layout_gravity="center"
+            android:gravity="center|end"
+            />
+
+  <LinearLayout
+      android:layout_marginTop="5dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      >
+      <ImageView
+          android:id="@+id/img_tt_tu1"
+          android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:src="@mipmap/ic_launcher"
+          />
+      <ImageView
+          android:id="@+id/img_tt_tu2"
+          android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:src="@mipmap/ic_launcher"
+          />
+      <ImageView
+          android:id="@+id/img_tt_tu3"
+          android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:src="@mipmap/ic_launcher"
+          />
+  </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="来源:"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:id="@+id/tv_tt_laiyuon"
+                android:layout_width="286dp"
+                android:layout_height="wrap_content"
+                android:text="来源"
+                android:textSize="16dp"
+                android:layout_marginLeft="10dp"
+                />
+            <TextView
+                android:id="@+id/tv_tt_toutiao"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="来源"
+                android:layout_gravity="center"
+                android:gravity="center|end"
+                android:textSize="16dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
